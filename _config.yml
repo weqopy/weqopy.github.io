@@ -1,0 +1,15 @@
+# Site settings
+baseurl: ""
+name: weqopy site
+email: weqopy@gmail.com
+author: weqopy
+url: https://weqopy.github.io/
+github: https://github.com/weqopy/
+github_username: weqopy
+
+permalink: /:year/:month/:day/:title/
+plugins: [jekyll-paginate]
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+markdown: kramdown
