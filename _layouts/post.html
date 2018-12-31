@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="container docs-container">
   <div class="row">
     <div class="col-md-3">
@@ -11,21 +12,19 @@ layout: default
     <div class="col-md-9" role="main">
       <div class="panel docs-content">
         <div class="wrapper">
-            <header class="post-header">
-              <h1 class="post-title">{{ page.title }}</h1>
-              <div class="meta">
-                Posted on <span class="postdate">{{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</span>
-                  By <a target="_blank" href="{{site.url}}">{{ site.author }}</a>
-              </div>
-              <div>
-                Category: <a href="{{ '/category/' | prepend: site.baseurl }}#{{page.category}}">{{page.category}}</a>
-                Tag: <a href="{{ '/tag/' | prepend: site.baseurl }}#{{page.tag}}">{{page.tag}}</a>
-              </div>
-              <br />
-            </header>
-            <article class="post-content">
-              {{ content }}
-            </article>
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <div class="meta">
+              Posted on <span class="postdate">{{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</span>
+              By <a target="_blank" href="{{site.url}}">{{ site.author }}</a>
+            </div>
+            <div>
+              Category: <a href="{{ '/category/' | prepend: site.baseurl }}#{{page.category}}">{{page.category}}</a>
+              Tag: <a href="{{ '/tag/' | prepend: site.baseurl }}#{{page.tag}}">{{page.tag}}</a>
+            </div>
+            <br />
+          </header>
+          <article class="post-content">{{ content }}</article>
         </div>
       </div>
     </div>
