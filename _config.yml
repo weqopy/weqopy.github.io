@@ -11,5 +11,14 @@ permalink: /:year/:month/:day/:title/
 plugins: [jekyll-paginate]
 paginate: 10
 
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+
+
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'TOC.md']
 markdown: kramdown

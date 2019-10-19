@@ -1,5 +1,4 @@
 ---
-layout: post
 title: daru from_excel
 date: 2019-10-04 16:12:56 +0800
 category: Note
