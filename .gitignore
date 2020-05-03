@@ -1,6 +1,9 @@
 reated by https://www.gitignore.io/api/jekyll,pycharm,sublimetext,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=jekyll,pycharm,sublimetext,visualstudiocode
 
+### MWeb ###
+.MWebMetaData
+
 ### Jekyll ###
 _site/
 .sass-cache/
