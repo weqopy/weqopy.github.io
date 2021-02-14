@@ -12,4 +12,4 @@ tag: iOS
 
 ## Miss Moment Support
 
-You may send the feedback email to [`weqopy+missingfeedback`](weqopy+missingfeedback@gmail.com)
+You may send the feedback email to `weqopy+missingfeedback@gmail.com`
