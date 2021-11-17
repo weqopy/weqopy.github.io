@@ -22,7 +22,7 @@ tag: Tool
 
 ## 正文
 
-### `iTerm2` 连接服务器
+### iTerm2 连接服务器
 
 一般而言，使用终端连接服务器时，直接通过命令行输入`ssh user@host`即可，但是当涉及管理多个服务器、并且可能需要经常临时连接时，常有捉襟见肘之感。
 
@@ -30,7 +30,7 @@ tag: Tool
 
 当前笔者使用的方式为`iTerm2`自带的`Profiles`功能，结合`expect`方式进行快速连接，并通过`Dynamic Profiles`配置`Profile`模板，以下进行介绍。
 
-### `Profiles` 配置管理多服务器
+### Profiles 配置管理多服务器
 
 `iTerm2`自带管理`Profiles`功能，简单配置`name`和`command`即可
 
